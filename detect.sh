@@ -67,7 +67,7 @@ function main(){
                         test3= cd termuxhackers
                         if [[ -d "$FILE4" ]];then
                             test4= cd id
-                            printf "[*] Ransmware Detected ...\n"
+                            printf "[*] Ransomware Detected ...\n"
                             printf "\n"
                             sleep 5 
                             printf "Info : \n\n"
@@ -82,16 +82,16 @@ function main(){
                             printf "DESCRIPTION : ";sed -n '5p' hello.xml; printf "\n"
                             printf "RANS_MESSAGE: ";sed -n '7p' hello.xml; printf "\n"
                         else
-                            printf "This App Is Note A Sara Ransmware\n"
+                            printf "This App Is Note A Sara Ransomware\n"
                         fi
                     else
-                        printf "This App Is Note A Sara Ransmware\n"
+                        printf "This App Is Note A Sara Ransomware\n"
                     fi 
                 else
-                    printf "This App Is Note A Sara Ransmware\n"
+                    printf "This App Is Note A Sara Ransomware\n"
                 fi 
             elif [[ ! -d "$FILE" ]];then
-                 printf "This App Is Note A Sara Ransmware\n"
+                 printf "This App Is Note A Sara Ransomware\n"
             fi
 }
 case $1 in
